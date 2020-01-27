@@ -42,9 +42,9 @@ void quicksort(int a[], int p, int r)
         {
         pivot = partition(a, p, r);
         printf ("After patition:\n");
-    for (i = 0; i < 10; i++)
-        printf ("%d ", a[i]);
-    printf ("\n\n");
+        for (i = 0; i < 10; i++)
+            printf ("%d ", a[i]);
+        printf ("\n\n");
         quicksort(a, p, pivot-1);
         quicksort(a, pivot+1, r);
         }

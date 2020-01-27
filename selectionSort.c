@@ -25,6 +25,10 @@ int main()
     for (i = 0; i < 10; i++)
         {
         small = i;
+        /* 
+         * Find the smallest number in each iteration and swap it with the first
+         * element of subarray
+         */
         for (j = i; j < 10; j++)
             {
             if (arr[j] < arr[small])
