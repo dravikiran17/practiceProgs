@@ -1,6 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/* 
+ * Traverse through the list. Compare each entry with the next one and if next
+ * entry is smaller, swap. Complexity O(n²) since number of passes required is
+ * n*(n+1)/2.
+ * := (n²+n)/2
+ */
+
 void swap (int *a, int *b)
     {
     int temp = 0;
